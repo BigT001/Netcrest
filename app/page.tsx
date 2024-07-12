@@ -29,7 +29,7 @@ export default function Landingpage() {
       />
 
       <div
-        className="h-screen pb-24 pt-16 lg:grid lg:grid-cols-2 
+        className="lg:h-screen pb-24 pt-10 lg:grid lg:grid-cols-2 
         sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white shadow-xl shadow-blue-200"
       >
         <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
@@ -40,7 +40,7 @@ export default function Landingpage() {
             <BoxReveal boxColor={"#5046e6"} duration={0.5}>
               <h1
                 className="relative w-fit tracking-tight text-balance mt-16 font-bold
-                !leading-tight text-gray-900 text-4xl md:text-4xl lg:text-5xl pr-10 pl-10"
+                !leading-tight text-gray-900 text-4xl md:text-4xl lg:text-5xl "
               >
                 We
                 <span className="bg-blue-800 px-2 text-white">Build</span>
@@ -59,7 +59,7 @@ export default function Landingpage() {
               </p>
             </BoxReveal>
 
-            <div className="flex space-x-4 spaxe-y-4 mt-10 mb-4">
+            <div className="grid lg:flex lg:space-x-4 gap-5 mt-10 mb-4">
               <a
                 href="/ContactPage"
                 className="inline-block rounded border-2 
@@ -73,7 +73,7 @@ export default function Landingpage() {
 
               <a
                 href="/OurStory"
-                className=" inline-block rounded border-2 
+                className="inline-block rounded border-2 
                       border-blue-800 bg-blue-800 px-12 py-3 
                       text-md font-medium text-white  
                       shadow-md shadow-blue-300 transform hover:scale-105 
@@ -85,7 +85,9 @@ export default function Landingpage() {
           </div>
         </div>
       </div>
-      <Cardscards />
+      <div className="mt-10">
+        <Cardscards />
+      </div>
       <Founder />
       <Technology />
       <ChoseUsNow />
