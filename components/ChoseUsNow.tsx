@@ -126,17 +126,6 @@ export default function ChoseUsNow() {
             innovation, efficiency, and satisfaction.
           </p>
         </a>
-
-        <a
-          href="/ContactPage"
-          className="lg:hidden mt-8 inline-block rounded border-2 
-          border-blue-700 bg-bwhite  py-3 mr-32 ml-32
-          text-md font-medium text-black  
-          shadow-md shadow-blue-300 transform hover:scale-105 
-          transition-transform duration-300 text-center"
-        >
-          Get In Touch
-        </a>
       </div>
     </div>
   );

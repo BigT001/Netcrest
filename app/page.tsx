@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import Cardscards from "@/components/Cardscards";
 import ChoseUsNow from "@/components/ChoseUsNow";
 import ContactSection from "@/components/ContactSection";
+import CallToAction from "@/components/CallToAction";
 
 export default function Landingpage() {
   const { theme } = useTheme();
@@ -62,7 +63,7 @@ export default function Landingpage() {
               <a
                 href="/ContactPage"
                 className="inline-block rounded border-2 
-                      border-blue-700 bg-white px-12 py-3 
+                      border-blue-200 bg-white px-12 py-3 
                       text-md font-medium text-black  
                       shadow-md shadow-blue-300 transform hover:scale-105 
                       transition-transform duration-300"
@@ -87,8 +88,13 @@ export default function Landingpage() {
       <div className="mt-10">
         <Cardscards />
       </div>
+
       <Founder />
       <Technology />
+
+      <div className="mb-20 px-10">
+        <CallToAction />
+      </div>
       <ChoseUsNow />
       <Ourstory />
       <ContactSection />

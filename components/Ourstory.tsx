@@ -1,20 +1,11 @@
-import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { CardContent, CardFooter } from "@/components/ui/card";
 import { AnimatedListDisplay } from "./Animatedlistdisplay";
 import { Testimoney } from "./Testimoney";
 
 export default function Ourstory() {
   return (
     <div
-      className="grid grid-cols-1 lg:grid-cols-2 border-2 shadow-xl 
-          shadow-blue-300 border-gray-300 pt-16 mt-20  
+      className="grid grid-cols-1 lg:grid-cols-2   pt-16 mt-20  
             lg:mr-20 lg:ml-20 sm:pb-5 lg:gap-x-0 rounded-xl"
     >
       <div
