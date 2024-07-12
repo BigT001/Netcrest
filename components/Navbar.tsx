@@ -2,31 +2,26 @@
 
 import React, { useState } from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuPortal,
-  DropdownMenuSeparator,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Button } from "./ui/button";
 import Link from "next/link";
+import Sidebar from "./Sidebar";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
-  const closeMenu = () => setIsOpen(false);
+  const toggleSidebar = () => {
+    setIsSidebarVisible(!isSidebarVisible);
+  };
+
+  const closeMenu = () => {
+    setIsSidebarVisible(false);
+  };
 
   return (
     <MaxWidthWrapper className="pb-20">
       <div
         className="flex justify-between font-bold border-b 
-        border-gray-300 fixed top-0 left-0 right-0 shadow-xl z-50 bg-white"
+        border-gray-300 fixed top-0 left-0 right-0 
+        shadow-xl z-50 bg-white"
       >
         <div className="pl-5">
           <Link href="/">
@@ -38,118 +33,12 @@ export default function Navbar() {
           <ul>
             <Link href="/">Home</Link>
           </ul>
-
           <ul>
             <Link href="/WhatWeDoNew">What we do</Link>
           </ul>
-
           <ul>
             <Link href="/OurStory">Our story</Link>
           </ul>
-        </div>
-
-        <div className="flex lg:hidden mt-5 pr-7">
-          <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
-            <DropdownMenuTrigger>
-              <a
-                href="/ContactPage"
-                onClick={closeMenu}
-                className=" rounded border-2 
-                      border-blue-200 bg-white px-10 py-3 
-                      text-md font-medium text-black  
-                      shadow-md shadow-blue-300 duration-300 mb-4"
-              >
-                Menu
-              </a>
-            </DropdownMenuTrigger>
-
-            <DropdownMenuContent className="w-56 font-bold">
-              <DropdownMenuGroup>
-                <DropdownMenuItem>
-                  <Link href="/" onClick={closeMenu}>
-                    Home
-                  </Link>
-                </DropdownMenuItem>
-              </DropdownMenuGroup>
-              <DropdownMenuSeparator />
-
-              <DropdownMenuGroup className="font-bold">
-                <DropdownMenuSub>
-                  <DropdownMenuSubTrigger>
-                    <Link href="/WhatWeDoNew" onClick={closeMenu}>
-                      What we do
-                    </Link>
-                  </DropdownMenuSubTrigger>
-                  <DropdownMenuPortal>
-                    {/* 
-                    <DropdownMenuSubContent>
-                      <DropdownMenuItem>
-                        <Link href="/WhatWeDoNew" onClick={closeMenu}>
-                          Web App Development
-                        </Link>
-                      </DropdownMenuItem>
-
-                      <DropdownMenuSeparator className='item-black'/>
-                      <DropdownMenuItem>
-                        <Link href="/WhatWeDoNew" onClick={closeMenu}>
-                           Website Development                      
-                        </Link>
-                      </DropdownMenuItem>
-
-                      <DropdownMenuSeparator />
-                      <DropdownMenuItem>
-                        <Link href="/WhatWeDoNew" onClick={closeMenu}>
-                          Ecommerce Development                     
-                        </Link>
-                      </DropdownMenuItem> 
-
-                      <DropdownMenuSeparator />
-                      <DropdownMenuItem>
-                        <Link href="/WhatWeDoNew" onClick={closeMenu}>
-                          UI/UX design                    
-                        </Link>
-                      </DropdownMenuItem> 
-
-                      <DropdownMenuSeparator />
-                      <DropdownMenuItem>
-                        <Link href="/WhatWeDoNew" onClick={closeMenu}>
-                          MVP Development            
-                        </Link>
-                      </DropdownMenuItem> 
-
-                      <DropdownMenuSeparator />
-                      <DropdownMenuItem>
-                        <Link href="/WhatWeDoNew" onClick={closeMenu}>
-                          CMS Development                   
-                        </Link>
-                      </DropdownMenuItem> 
-                    </DropdownMenuSubContent>
-*/}
-                  </DropdownMenuPortal>
-                </DropdownMenuSub>
-              </DropdownMenuGroup>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <Link href="/OurStory" onClick={closeMenu}>
-                  Our Story
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <a
-                  href="/ContactPage"
-                  onClick={closeMenu}
-                  className=" rounded border-2 
-                      border-blue-700 bg-white px-12 py-3 
-                      text-md font-medium text-black  
-                      shadow-md shadow-blue-300 transform hover:scale-105 
-                      transition-transform duration-300"
-                >
-                  Get in Touch
-                </a>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
         </div>
 
         <div className="mt-7 font-bold hidden lg:flex pr-10">
@@ -165,7 +54,39 @@ export default function Navbar() {
             Contact us
           </a>
         </div>
+
+        <a
+          href="#"
+          onClick={toggleSidebar}
+          className="inline-block rounded border-2 
+                    border-blue-800 bg-blue-800 px-5 py-1 h-10 mt-4 mr-5
+                    text-md font-medium text-white   
+                    transition-transform duration-300 lg:hidden"
+        >
+          Menu
+        </a>
       </div>
+
+      <div
+        className={`fixed top-0 left-0 h-full w-64 bg-blue-800 text-white transform transition-transform duration-300 z-50 ${
+          isSidebarVisible ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <button onClick={toggleSidebar} className="p-4 text-center">
+          Close
+        </button>
+        <div className="p-4 bg-white text-black h-full">
+          <Sidebar />
+        </div>
+      </div>
+
+      {/* Overlay to close sidebar when clicking outside */}
+      {isSidebarVisible && (
+        <div
+          onClick={toggleSidebar}
+          className="fixed inset-0 bg-black opacity-50 z-40"
+        ></div>
+      )}
     </MaxWidthWrapper>
   );
 }
