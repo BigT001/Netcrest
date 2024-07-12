@@ -5,7 +5,7 @@ export default function Founder() {
   return (
     <div className="px-10">
       <div
-        className="container rounded-xl flex-col lg:mt-16 pt-16 items-center 
+        className="lg:container rounded-xl flex-col lg:mt-16 pt-12 items-center 
        shadow-md border-r-black border-2 border-l-black shadow-blue-400"
       >
         <div className="text-center ">
@@ -13,7 +13,7 @@ export default function Founder() {
             "All the difference
           </h1>
 
-          <h4 className="text-gray-700 text-lg mt-2">
+          <h4 className="text-gray-700 text-lg mt-2 px-2">
             The digital landscape has undergone a profound transformation,
             catalyzed by the global pandemic. This shift has unlocked
             unprecedented opportunities, paving the way for a surge in digital

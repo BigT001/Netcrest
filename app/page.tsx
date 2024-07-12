@@ -30,7 +30,7 @@ export default function Landingpage() {
 
       <div
         className="lg:h-screen pb-24 pt-10 lg:grid lg:grid-cols-2 
-        sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white shadow-xl shadow-blue-200"
+        sm:pb lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white shadow-xl shadow-blue-200"
       >
         <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
           <div
@@ -42,9 +42,8 @@ export default function Landingpage() {
                 className="relative w-fit tracking-tight text-balance mt-16 font-bold
                 !leading-tight text-gray-900 text-4xl md:text-4xl lg:text-5xl "
               >
-                We
-                <span className="bg-blue-800 px-2 text-white">Build</span>
-                interactive, dynamic and fast software solutions
+                We <span className="bg-blue-800 px-2 text-white">Build</span>
+                interactive, dynamic and fast web solutions
               </h1>
             </BoxReveal>
 
