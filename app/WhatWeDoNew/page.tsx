@@ -128,12 +128,12 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Customer Focused Approach
+                    Customer-first
                   </AccordionTrigger>
                 </span>
 
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -145,7 +145,7 @@ export default function WhatWeDoNew() {
                   ensure alignment.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -166,11 +166,11 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                       transition-transform duration-300"
                   >
-                    Innovative Technology Integration
+                    Smart solutions{" "}
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -182,7 +182,7 @@ export default function WhatWeDoNew() {
                   services, and AI integration where applicable.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -202,11 +202,11 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Agile Development Methodology
+                    Agile Methods
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -218,11 +218,11 @@ export default function WhatWeDoNew() {
                   accommodated without disrupting the overall project timeline.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Collaboration and Transparency <br />
+                    Open teamwork <br />
                   </span>
                   Our development process is highly collaborative, involving
                   clients at every stage. Regular updates, demos, and reviews
@@ -238,11 +238,11 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Quality Assurance and Testing
+                    Quality Assurance & Testing
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -255,7 +255,7 @@ export default function WhatWeDoNew() {
                   (UAT).
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -278,7 +278,7 @@ export default function WhatWeDoNew() {
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -289,7 +289,7 @@ export default function WhatWeDoNew() {
                   without compromising performance.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -312,7 +312,7 @@ export default function WhatWeDoNew() {
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -323,7 +323,7 @@ export default function WhatWeDoNew() {
                   secure authentication, and regular security audits.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -347,7 +347,7 @@ export default function WhatWeDoNew() {
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
@@ -357,7 +357,7 @@ export default function WhatWeDoNew() {
                   address any issues that may arise
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">

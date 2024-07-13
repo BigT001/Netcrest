@@ -72,7 +72,7 @@ export default function Navbar() {
           isSidebarVisible ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <button onClick={toggleSidebar} className="p-4 text-center">
+        <button onClick={toggleSidebar} className="p-4 px-24 font-bold">
           Close
         </button>
         <div className="p-4 bg-white text-black h-full">
