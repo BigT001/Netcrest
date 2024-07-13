@@ -238,7 +238,7 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Quality Assurance & Testing
+                    Quality checks
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
@@ -381,7 +381,7 @@ export default function WhatWeDoNew() {
         <div className="">
           <img
             src="WebsiteCreator.svg"
-            alt="UI/UX design image"
+            alt="Website design image"
             className="lg:mt-"
           />
         </div>
@@ -392,8 +392,8 @@ export default function WhatWeDoNew() {
               className="font-semibold font-md text-xl text-center  
                 py-2 shadow-md shadow-blue-300 px-3"
             >
-              Our focus is on constructing web applications that address
-              specific challenges in line with our clients' vision.
+              We specialize in designing and developeing websites that meets
+              your specific needs
             </h1>
             <ul className="mt-5 ml-8 font-bold text-2xl">Key Areas of Focus</ul>
 
@@ -405,33 +405,30 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Customer Focused Approach
+                    SEO optimization
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Understanding Client Needs <br />
+                    Keyword optimization <br />
                   </span>
-                  We prioritize comprehensively understanding our clients'
-                  goals, challenges, and visions. This involves in-depth
-                  discussions, needs assessments, and ongoing consultations to
-                  ensure alignment.
+                  We strategically incorporate relevant keywords into your
+                  content, meta tags, and URLs to improve visibility for
+                  targeted searches.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Tailored Solutions <br />
+                    Content structuring <br />
                   </span>
-                  Based on the insights gathered, we design and develop web
-                  applications that are customized to meet the unique
-                  requirements of each client, ensuring that the solutions
-                  provided are not just functional but also highly relevant and
-                  effective.
+                  We organize your site's content with proper heading tags (H1,
+                  H2, etc.) and schema markup to enhance search engine
+                  understanding and display.
                 </AccordionContent>
               </AccordionItem>
 
@@ -442,32 +439,32 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Innovative Technology Integration
+                    Cost-effectivenes
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Cutting-Edge Technologies <br />
+                    Competitive pricing <br />
                   </span>
-                  We leverage the latest technologies and frameworks to build
-                  web applications that are robust, scalable, and future-proof.
-                  This includes the use of modern programming languages, cloud
-                  services, and AI integration where applicable.
+                  We offer high-quality services at reasonable rates, ensuring
+                  maximum value for your investment without compromising on
+                  excellence.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Seamless User Experience <br />
+                    Value for money
+                    <br />
                   </span>
-                  Emphasis is placed on creating intuitive and seamless user
-                  interfaces (UI) and experiences (UX). We ensure that the
-                  applications are user-friendly, accessible, and engaging,
-                  which is crucial for user adoption and satisfaction.
+                  Our solutions provide long-term benefits, maximizing your
+                  investment. We focus on creating robust, scalable websites
+                  that grow with your business, reducing future redevelopment
+                  costs.
                 </AccordionContent>
               </AccordionItem>
 
@@ -478,32 +475,28 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Agile Development Methodology
+                    User experience
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Iterative Process <br />
+                    Responsive design <br />
                   </span>
-                  We adopt an agile development methodology, which allows for
-                  iterative progress and regular feedback loops. This ensures
-                  that any changes in client requirements can be swiftly
-                  accommodated without disrupting the overall project timeline.
+                  Our websites adapt seamlessly to all screen sizes, providing a
+                  consistent experience across devices.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Collaboration and Transparency <br />
+                    Performance optimization <br />
                   </span>
-                  Our development process is highly collaborative, involving
-                  clients at every stage. Regular updates, demos, and reviews
-                  are part of our process to maintain transparency and ensure
-                  that the project is on track.
+                  We ensure fast loading times and smooth interactions to keep
+                  users engaged.
                 </AccordionContent>
               </AccordionItem>
 
@@ -514,32 +507,29 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Quality Assurance and Testing
+                    Security focus
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Rigorous Testing <br />
+                    SSL encryption
+                    <br />
                   </span>
-                  We implement rigorous testing protocols to ensure that the web
-                  applications are bug-free, secure, and perform optimally under
-                  various conditions. This includes unit testing, integration
-                  testing, performance testing, and user acceptance testing
-                  (UAT).
+                  We implement HTTPS protocol to secure data transmission
+                  between users and your site.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Continuous Improvement <br />
+                    Secure coding practices <br />
                   </span>
-                  Post-deployment, we offer maintenance and support services to
-                  ensure that the application remains up-to-date with the latest
-                  technology trends and continues to operate efficiently.
+                  Our developers follow best practices to prevent common
+                  security issues like SQL injection and cross-site scripting.
                 </AccordionContent>
               </AccordionItem>
 
@@ -550,30 +540,28 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Scalability and Flexibility
+                    Ongoing support
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Scalable Architecture <br />
+                    Routine maintenance <br />
                   </span>
-                  Our web applications are built with scalability in mind,
-                  ensuring they can grow alongside the clients' business needs
-                  without compromising performance.
+                  We offer regular updates and patches to keep your site secure
+                  and functioning optimally.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Flexible Solutions <br />
+                    Technical assistance <br />
                   </span>
-                  We design solutions that are flexible and adaptable, allowing
-                  for easy updates and integration with other systems as
-                  required by the clients.
+                  Our support team is available to address any issues or
+                  questions that arise post-launch.
                 </AccordionContent>
               </AccordionItem>
 
@@ -584,31 +572,28 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Security and Compliance
+                    Timely delivery
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Data Protection <br />
+                    Agile methodology <br />
                   </span>
-                  Ensuring the security and privacy of user data is paramount.
-                  We implement robust security measures, including encryption,
-                  secure authentication, and regular security audits.
+                  We use an iterative approach that allows for flexibility and
+                  faster delivery of working features.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Compliance <br />
+                    Clear project roadmap <br />
                   </span>
-                  We stay abreast of industry regulations and compliance
-                  requirements, ensuring that our applications adhere to
-                  relevant standards, such as GDPR, HIPAA, and others as
-                  applicable.
+                  We establish and communicate a detailed timeline with specific
+                  milestones.
                 </AccordionContent>
               </AccordionItem>
 
@@ -619,28 +604,28 @@ export default function WhatWeDoNew() {
                     className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                   >
-                    Post-Launch and Support
+                    Scalability
                   </AccordionTrigger>
                 </span>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Ongoing Support <br />
+                    Flexible architecture <br />
                   </span>
-                  We provide continuous support and maintenance services to
-                  address any issues that may arise
+                  We build your site on a robust, modular framework that can
+                  easily accommodate future growth and new features.
                 </AccordionContent>
                 <AccordionContent
-                  className="px-10 transform hover:scale-105 
+                  className="px-5 transform hover:scale-105 
                       transition-transform duration-300 text-lg"
                 >
                   <span className="font-bold">
-                    Post-launch <br />
+                    API integration <br />
                   </span>
-                  This includes bug fixes, performance optimization, and feature
-                  enhancements.
+                  We create APIs that allow for seamless integration with other
+                  systems and future expansions.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
