@@ -41,7 +41,6 @@ export default function ChoseUsNow() {
           transition shadow-blue-200 hover:border-l-blue-800 hover:border-b-blue-800
           hover:shadow-blue-500/10  transform hover:scale-105 
            duration-300"
-          href="#"
         >
           <h2 className="mt-2 font-bold text-xl">
             Dynamic and Responsive Solutions
@@ -56,7 +55,6 @@ export default function ChoseUsNow() {
           className="block rounded-xl border border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-800 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
-          href="#"
         >
           <h2 className="mt-2 font-bold text-xl">
             High Performance Applications
@@ -71,7 +69,6 @@ export default function ChoseUsNow() {
           className="block rounded-xl border border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-700 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
-          href="#"
         >
           <h2 className="mt-2 font-bold text-xl">Fast and Interactive</h2>
           <p className="sm:mt-1 sm:block sm:text-sm sm:text-gray-600 mt-2">
@@ -85,7 +82,6 @@ export default function ChoseUsNow() {
           className="block rounded-xl border border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-800 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
-          href="#"
         >
           <h2 className="mt-2 font-bold text-xl">
             Scalable and Secure Solutions
@@ -101,7 +97,6 @@ export default function ChoseUsNow() {
           className="block rounded-xl border border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-800 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
-          href="#"
         >
           <h2 className="mt-2 font-bold text-xl">
             Timely Delivery and Support
@@ -117,7 +112,6 @@ export default function ChoseUsNow() {
           className="block rounded-xl border border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-800 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
-          href="#"
         >
           <h2 className="mt-2 font-bold text-xl">Collaborative Approach</h2>
           <p className="sm:mt-1 sm:block sm:text-sm sm:text-gray-600 mt-2">

@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
 import Sidebar from "./Sidebar";
+import { InstagramIcon } from "lucide-react";
 
 export default function Navbar() {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
@@ -46,7 +47,7 @@ export default function Navbar() {
             href="/ContactPage"
             onClick={closeMenu}
             className="inline-block rounded border-2 
-                  border-blue-200 bg-white px-12 py-3 
+                  border-blue-700 bg-white px-12 py-3 
                   text-md font-medium text-black  
                   shadow-md shadow-blue-300 transform hover: 
                   transition-transform duration-300 mb-4"

@@ -104,7 +104,7 @@ export default function WhatWeDoNew() {
         Development
       </span>
 
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 mr-10 ml-10 lg:mr-20 lg:ml-20">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 px-5 lg:mr-20 lg:ml-20">
         <div className="mt-10">
           <img src="WebApppic.svg" alt="" />
         </div>
@@ -377,7 +377,7 @@ export default function WhatWeDoNew() {
         Web<span className="bg-blue-900 text-white">site </span> Development
       </span>
 
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 mr-10 ml-10 lg:mr-20 lg:ml-20">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 px-5 lg:mr-20 lg:ml-20">
         <div className="">
           <img
             src="WebsiteCreator.svg"
@@ -393,7 +393,7 @@ export default function WhatWeDoNew() {
                 py-2 shadow-md shadow-blue-300 px-3"
             >
               We specialize in designing and developeing websites that meets
-              your specific needs
+              your specific needs.
             </h1>
             <ul className="mt-5 ml-8 font-bold text-2xl">Key Areas of Focus</ul>
 
@@ -644,7 +644,7 @@ export default function WhatWeDoNew() {
 
       <div
         className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 
-        mr-10 ml-10 lg:mr-20 lg:ml-20 "
+        px-5 lg:mr-20 lg:ml-20 "
       >
         <Card className="shadow-xl shadow-blue-300">
           <h1
@@ -655,7 +655,7 @@ export default function WhatWeDoNew() {
             Experiences (UX) that are visually appealing and highly functional.
           </h1>
           <ul className="mt-5 ml-8 font-bold text-2xl px-5">
-            Key Components of Our UI/UX Design Process
+            Our key Components
           </ul>
 
           <Accordion type="single" collapsible className="w-full ml-5">
@@ -923,8 +923,9 @@ export default function WhatWeDoNew() {
         </p>
 
         <div
-          className="grid grid-cols-2 space-y-4 space-x-4 lg:grid-cols-4 lg:space-x-6 lg:space-y-6 mt-5 
-        lg:mr-12 lg:ml-12 py-2"
+          className="grid grid-cols-2 gap-x-2 px-2
+          lg:grid-cols-4 lg:space-x-6 lg:space-y-6 mt-5 
+           lg:mr-12 lg:ml-12"
         >
           <Card
             className="lg:ml-6 lg:mt-6 mt-4 flex flex-col  
@@ -972,7 +973,7 @@ export default function WhatWeDoNew() {
           </Card>
 
           <Card
-            className="lg:ml-6 lg:mt-6 mt-4 ml-4 flex flex-col py-3 
+            className="lg:ml-6 lg:mt-6 mt-4 flex flex-col py-3 
             items-center justify-center border shadow-xl 
             shadow-blue-300"
           >

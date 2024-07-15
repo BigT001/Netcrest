@@ -40,11 +40,12 @@ export default function Landingpage() {
           >
             <BoxReveal boxColor={"#5046e6"} duration={0.5}>
               <h1
-                className="relative w-fit tracking-tight text-balance mt-16 font-bold
-                !leading-tight text-gray-900 text-4xl md:text-4xl lg:text-5xl "
+                className="relative w-fit tracking-tight text-balance mt-10 lg:mt-16 font-bold
+                !leading-tight text-gray-900 text-5xl md:text-5xl lg:text-6xl "
               >
-                We <span className="bg-blue-800 px-2 text-white">Build</span>
-                interactive, dynamic and fast web solutions
+                We<span className="bg-blue-800 px-2 text-white">Build</span>
+                interactive, <br />
+                dynamic and fast web solutions.
               </h1>
             </BoxReveal>
 
@@ -63,7 +64,7 @@ export default function Landingpage() {
               <a
                 href="/ContactPage"
                 className="inline-block rounded border-2 
-                      border-blue-200 bg-white px-12 py-3 
+                      border-blue-700 bg-white px-12 py-3 
                       text-md font-medium text-black  
                       shadow-md shadow-blue-300 transform hover:scale-105 
                       transition-transform duration-300"
@@ -89,7 +90,10 @@ export default function Landingpage() {
         <Cardscards />
       </div>
 
-      <Founder />
+      <div className="mt-20">
+        <Founder />
+      </div>
+
       <Technology />
 
       <div className="mb-20 px-10">
