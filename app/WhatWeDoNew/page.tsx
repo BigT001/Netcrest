@@ -109,7 +109,7 @@ export default function WhatWeDoNew() {
           <img src="WebApppic.svg" alt="" />
         </div>
 
-        <div className="shadow-xl shadow-blue-300">
+        <div className="shadow-xl shadow-blue-300 p">
           <Card>
             <h1
               className="font-semibold font-md text-xl text-center  
@@ -666,7 +666,7 @@ export default function WhatWeDoNew() {
                   className="text-xl transform hover:scale-105 
                            transition-transform duration-300"
                 >
-                  User Research and Analysis
+                  Research and Analysis
                 </AccordionTrigger>
               </span>
               <AccordionContent
@@ -924,10 +924,10 @@ export default function WhatWeDoNew() {
 
         <div
           className="grid grid-cols-2 space-y-4 space-x-4 lg:grid-cols-4 lg:space-x-6 lg:space-y-6 mt-5 
-        lg:mr-12 lg:ml-12"
+        lg:mr-12 lg:ml-12 py-2"
         >
           <Card
-            className="lg:ml-6 lg:mt-6 mt-4 ml-4 flex flex-col py-3 
+            className="lg:ml-6 lg:mt-6 mt-4 flex flex-col  
             items-center justify-center border shadow-xl 
             shadow-blue-300"
           >
@@ -936,7 +936,7 @@ export default function WhatWeDoNew() {
           </Card>
 
           <Card
-            className="lg:ml-6 lg:mt-6 mt-4 ml-4 flex flex-col py-3 
+            className="lg:ml-6 lg:mt-6 mt-4 px-4 flex flex-col 
             items-center justify-center border shadow-xl 
             shadow-blue-300"
           >
@@ -945,7 +945,7 @@ export default function WhatWeDoNew() {
           </Card>
 
           <Card
-            className="lg:ml-6 lg:mt-6 mt-4 ml-4 flex flex-col py-3 
+            className="lg:ml-6 lg:mt-6 mt-4 flex flex-col py-3 
             items-center justify-center border shadow-xl 
             shadow-blue-300"
           >
@@ -954,7 +954,7 @@ export default function WhatWeDoNew() {
           </Card>
 
           <Card
-            className="lg:ml-6 lg:mt-6 mt-4 ml-4 flex flex-col py-3 
+            className="lg:ml-6 lg:mt-6 mt-4 flex flex-col py-3 
             items-center justify-center border shadow-xl 
             shadow-blue-300"
           >
@@ -963,7 +963,7 @@ export default function WhatWeDoNew() {
           </Card>
 
           <Card
-            className="lg:ml-6 lg:mt-6 mt-4 ml-4 flex flex-col py-3 
+            className="lg:ml-6 lg:mt-6 mt-4 flex flex-col py-3 
             items-center justify-center border shadow-xl 
             shadow-blue-300"
           >
@@ -981,7 +981,7 @@ export default function WhatWeDoNew() {
           </Card>
 
           <Card
-            className="lg:ml-6 lg:mt-6 mt-4 ml-4 flex flex-col py-3 
+            className="lg:ml-6 lg:mt-6 mt-4 flex flex-col py-3 
             items-center justify-center border shadow-xl 
             shadow-blue-300"
           >
@@ -990,7 +990,7 @@ export default function WhatWeDoNew() {
           </Card>
 
           <Card
-            className="lg:ml-6 lg:mt-6 mt-4 ml-4 flex flex-col py-3 
+            className="lg:ml-6 lg:mt-6 mt-4 flex flex-col py-3 
             items-center justify-center border shadow-xl 
             shadow-blue-300"
           >

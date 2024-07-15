@@ -4,8 +4,8 @@ import React from "react";
 export default function Sidebar() {
   return (
     <div className="flex h-screen flex-col justify-between ">
-      <div className="px-4 py-">
-        <div className="pl-5">
+      <div className="px- py-">
+        {/*  <div className="pl-5">
           <Link href="/">
             <img
               src="2.svg"
@@ -13,7 +13,7 @@ export default function Sidebar() {
               className="w-32 h-20 place-content-center"
             />
           </Link>
-        </div>
+        </div> */}
 
         <ul className="mt-6 space-y-1">
           <li>

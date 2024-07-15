@@ -68,13 +68,21 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-blue-800 text-white transform transition-transform duration-300 z-50 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-white text-white 
+        transform transition-transform duration-300 z-50 ${
           isSidebarVisible ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <button onClick={toggleSidebar} className="p-4 px-24 font-bold">
-          Close
+        <button onClick={toggleSidebar} className="p-4 px-12 font-bold">
+          <Link href="/">
+            <img
+              src="2.svg"
+              alt="Logo"
+              className="w-32 h-20 place-content-center"
+            />
+          </Link>
         </button>
+
         <div className="p-4 bg-white text-black h-full">
           <Sidebar />
         </div>
