@@ -134,7 +134,7 @@ export default function Sidebar() {
               font-semibold text-black hover:bg-blue-100
               hover:text-black hover:font-bold"
             >
-              Our Story
+              Who we are
             </a>
           </li>
         </ul>
@@ -144,7 +144,7 @@ export default function Sidebar() {
         <a
           href="/ContactPage"
           className="inline-block rounded border-2 
-              border-blue-200 bg-white px-12 py-3 
+              border-blue-700 bg-white px-12 py-3 
               text-md font-medium text-black  
               shadow-md shadow-blue-300 transform hover: 
               transition-transform duration-300 mb-4"

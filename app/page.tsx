@@ -31,7 +31,7 @@ export default function Landingpage() {
 
       <div
         className="lg:h-screen pb-24 pt-10 lg:grid lg:grid-cols-2 
-        sm:pb lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white shadow-xl shadow-blue-200"
+        sm:pb lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white "
       >
         <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
           <div
@@ -40,18 +40,19 @@ export default function Landingpage() {
           >
             <BoxReveal boxColor={"#5046e6"} duration={0.5}>
               <h1
-                className="relative w-fit tracking-tight text-balance mt-10 lg:mt-16 font-bold
+                className="relative tracking-tight text-balance mt- lg:mt-10 font-bold
                 !leading-tight text-gray-900 text-5xl md:text-5xl lg:text-6xl "
               >
                 We<span className="bg-blue-800 px-2 text-white">Build</span>
-                interactive, <br />
-                dynamic and fast web solutions.
+                <br />
+                interactive, dynamic <br />
+                and fast software solutions.
               </h1>
             </BoxReveal>
 
             <BoxReveal boxColor={"#5046e6"} duration={0.5}>
               <p
-                className="mt-5 lg:text-lg lg:pr-10 max-w-prose text-center 
+                className="mt-5 lg:text-lg lg:pr-10 lg:mr-60 lg:ml-60 text-center 
                     lg:text-center text-balance md:text-wrap"
               >
                 Transforming ideas into dynamic digital experiences. We innovate
@@ -60,7 +61,7 @@ export default function Landingpage() {
               </p>
             </BoxReveal>
 
-            <div className="grid lg:flex lg:space-x-4 gap-5 mt-10 mb-4">
+            <div className="grid lg:flex lg:space-x-2 gap-2 mt-8 mb-4">
               <a
                 href="/ContactPage"
                 className="inline-block rounded border-2 

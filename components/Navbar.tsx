@@ -38,7 +38,7 @@ export default function Navbar() {
             <Link href="/WhatWeDoNew">What we do</Link>
           </ul>
           <ul>
-            <Link href="/OurStory">Our story</Link>
+            <Link href="/OurStory">Who we are</Link>
           </ul>
         </div>
 

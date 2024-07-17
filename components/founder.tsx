@@ -3,10 +3,10 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 
 export default function Founder() {
   return (
-    <div className="px-10">
+    <div className="px-2 lg:px-10">
       <div
         className="lg:container rounded-xl flex-col lg:mt-16 pt-12 items-center 
-       shadow-md border-r-black border-2 border-l-black shadow-blue-400"
+       shadow-md border-r-black shadow-blue-400"
       >
         <div className="text-center ">
           <h1 className="font-bold text-4xl lg:text-4xl">
