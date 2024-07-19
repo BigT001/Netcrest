@@ -7,7 +7,7 @@ import React from "react";
 export default function OurStory() {
   return (
     <div>
-      <section className="max-h-screen shadow-xl shadow-blue-300">
+      <section className="max-h-screen">
         <div
           className="mx-auto max-w-screen-xl px-4 
         py-32 lg:flex lg:h-screen lg:items-center"

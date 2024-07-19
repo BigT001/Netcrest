@@ -31,7 +31,7 @@ export default function Landingpage() {
 
       <div
         className="lg:h-screen pb-24 pt-10 lg:grid lg:grid-cols-2 
-        sm:pb lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white mt-20"
+        sm:pb lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white lg:mt-0 mt-20"
       >
         <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
           <div
@@ -91,17 +91,24 @@ export default function Landingpage() {
         <Cardscards />
       </div>
 
-      <div className="mt-20">
+      <div className="mt-20 px-5">
         <Founder />
       </div>
 
-      <Technology />
+      <div className="px-5">
+        <Technology />
+      </div>
 
       <div className="mb-20 px-10">
         <CallToAction />
       </div>
+
       <ChoseUsNow />
-      <Ourstory />
+
+      <div className="px-5">
+        <Ourstory />
+      </div>
+
       <ContactSection />
     </div>
   );

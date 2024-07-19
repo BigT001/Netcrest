@@ -37,7 +37,7 @@ export default function ChoseUsNow() {
       md:grid-cols-3 lg:gap-8 "
       >
         <a
-          className="block rounded-xl border border-gray-800 p-4 shadow-xl 
+          className="block rounded-xl border-b border-r border-gray-800 p-4 shadow-xl 
           transition shadow-blue-200 hover:border-l-blue-800 hover:border-b-blue-800
           hover:shadow-blue-500/10  transform hover:scale-105 
            duration-300"
@@ -52,7 +52,7 @@ export default function ChoseUsNow() {
         </a>
 
         <a
-          className="block rounded-xl border border-gray-800 p-4 shadow-xl 
+          className="block rounded-xl border-b border-l border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-800 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
         >
@@ -66,7 +66,7 @@ export default function ChoseUsNow() {
         </a>
 
         <a
-          className="block rounded-xl border border-gray-800 p-4 shadow-xl 
+          className="block rounded-xl border-b border-r border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-700 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
         >
@@ -79,7 +79,7 @@ export default function ChoseUsNow() {
         </a>
 
         <a
-          className="block rounded-xl border border-gray-800 p-4 shadow-xl 
+          className="block rounded-xl border-b border-l border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-800 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
         >
@@ -94,7 +94,7 @@ export default function ChoseUsNow() {
         </a>
 
         <a
-          className="block rounded-xl border border-gray-800 p-4 shadow-xl 
+          className="block rounded-xl border-b border-r border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-800 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
         >
@@ -109,7 +109,7 @@ export default function ChoseUsNow() {
         </a>
 
         <a
-          className="block rounded-xl border border-gray-800 p-4 shadow-xl 
+          className="block rounded-xl border-b border-l border-gray-800 p-4 shadow-xl 
           transition hover:border-blue-800 hover:shadow-blue-500/10 transform hover:scale-105 
           duration-300 shadow-blue-200"
         >
