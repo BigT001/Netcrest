@@ -7,8 +7,11 @@ import React from "react";
 export default function OurStory() {
   return (
     <div>
-      <section className="bg-gray-50">
-        <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <section className="shadow-xl shadow-blue-300">
+        <div
+          className="mx-auto max-w-screen-xl px-4 
+        py-32 lg:flex lg:h-screen lg:items-center"
+        >
           <div className="mx-auto max-w-xl text-center">
             <h1 className="text-4xl font-extrabold sm:text-5xl">
               WHO <br />
@@ -18,152 +21,60 @@ export default function OurStory() {
             </h1>
 
             <p className="mt-4 sm:text-xl/relaxed">
-              At Net CresT, we are passionate about transforming ideas into
-              dynamic digital experiences. Our mission is to innovate with
-              simplicity, speed, and interaction, ensuring that our clients
-              thrive in the digital world.
+              We are NetCresT, we are passionate about your ideas about
+              transforming them into dynamic digital experiences. Our mission is
+              to build exceptional digital solutions that are impartful and
+              scalable with simplicity and speed.
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                className="block w-full rounded bg-blue-800 px-12 py-3 text-sm 
-                font-medium text-white shadow hover:bg-blue-800 focus:outline-none 
-                focus:ring active:bg-blue-500 sm:w-auto"
-                href="#"
+                href="/ContactPage"
+                className="inline-block rounded border-2 
+                      border-blue-700 bg-white px-12 py-3 
+                      text-md font-medium text-black  
+                      shadow-md shadow-blue-300 transform hover:scale-105 
+                      transition-transform duration-300"
               >
-                Contact us
-              </a>
-
-              <a
-                className="block w-full rounded px-12 py-3 text-sm font-medium text-blue-600 shadow hover:text-blue-800 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
-                href="#"
-              >
-                Book a call
+                Get in Touch
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <MaxWidthWrapper className="">
+      <MaxWidthWrapper>
         <section>
-          <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-screen-2xl mb-20 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-              <div className="relative z-10 lg:py-16">
-                <div className="relative h-64 sm:h-80 lg:h-full">
-                  <img
-                    alt=""
-                    src="samuel.png"
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
+              <div className=" lg:py-16">
+                <div className="relative sm:h-full lg:h-full">
+                  <img alt="" src="discover.svg" className="" />
                 </div>
               </div>
 
-              <div className="relative flex items-center bg-gray-100">
-                <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
+              <div className="relative flex items-center ">
+                <span
+                  className="hidden lg:absolute lg:inset-y-0 lg:-start-16 
+                lg:block lg:w-16 "
+                ></span>
 
-                <div className="p-8 sm:p-16 lg:p-24">
+                <div className="p-8 sm:p-16 lg:p-24 shadow-xl shadow-blue-300 border-r border-b border-black rounded-xl">
                   <h2 className="text-2xl font-bold sm:text-3xl">Our Vision</h2>
 
-                  <p className="mt-4 text-gray-600">
-                    Our journey began with a vision to revolutionize the digital
-                    landscape by providing innovative, high-quality solutions
-                    tailored to meet the unique needs of each client. Founded by
-                    Samuel Stanley, Netcrest has grown from a small startup into
-                    a trusted partner for businesses looking to make a mark in
-                    the digital world.
+                  <p className="mt-4 text-gray-600 text-xl">
+                    To be at the forefront of digital innovation, creating
+                    experiences that captivate and engage.
                   </p>
 
-                  <a
-                    href="#"
-                    className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-                  >
-                    Get in Touch
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/*for mobile*/}
-        <section className="lg:hidden">
-          <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-              <div className="relative z-10 lg:py-16">
-                <div className="relative h-64 sm:h-80 lg:h-full">
-                  <img
-                    alt=""
-                    src="samuel.png"
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
-                </div>
-              </div>
-
-              <div className="relative flex items-center bg-gray-100">
-                <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
-
-                <div className="p-8 sm:p-16 lg:p-24">
-                  <h2 className="text-2xl font-bold sm:text-3xl">
+                  <h2 className="text-2xl font-bold sm:text-3xl mt-20">
                     Our Mission
                   </h2>
-
-                  <p className="mt-4 text-gray-600">
-                    Our journey began with a vision to revolutionize the digital
-                    landscape by providing innovative, high-quality solutions
-                    tailored to meet the unique needs of each client. Founded by
-                    Samuel Stanley, Netcrest has grown from a small startup into
-                    a trusted partner for businesses looking to make a mark in
-                    the digital world.
+                  <p className="mt-4 text-gray-600 text-xl">
+                    To deliver exceptional digital solutions that empower our
+                    clients to achieve their goals with ease and efficiency.
+                    while solving problems.
                   </p>
-
-                  <p>
-                    Founder <br />
-                    Samuel Stanley
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/*for large devices*/}
-        <section className="hidden lg:block">
-          <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-              <div className="relative flex items-center bg-gray-100">
-                <span className="hidden lg:absolute lg:inset-y-0 lg:-end-16 lg:block lg:w-16 lg:bg-gray-100"></span>
-
-                <div className="p-8 sm:p-16 lg:p-24">
-                  <h2 className="text-2xl font-bold sm:text-3xl">
-                    Our Mission
-                  </h2>
-
-                  <p className="mt-4 text-gray-600">
-                    Our journey began with a vision to revolutionize the digital
-                    landscape by providing innovative, high-quality solutions
-                    tailored to meet the unique needs of each client. Founded by
-                    Samuel Stanley, Netcrest has grown from a small startup into
-                    a trusted partner for businesses looking to make a mark in
-                    the digital world.
-                  </p>
-
-                  <a
-                    href="#"
-                    className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-                  >
-                    Get in Touch
-                  </a>
-                </div>
-              </div>
-
-              <div className="relative z-10 lg:py-16">
-                <div className="relative h-64 sm:h-80 lg:h-full">
-                  <img
-                    alt=""
-                    src="samuel.png"
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
                 </div>
               </div>
             </div>
@@ -172,48 +83,166 @@ export default function OurStory() {
       </MaxWidthWrapper>
 
       <section>
-        <div className="p-8 md:p-12 lg:px-16 lg:py-24">
-          <div className="text-center ltr:sm:text-left rtl:sm:text-right">
+        <div className="mx-auto sm:px-6 lg:px-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div className=" flex items-center b">
+              <div className="p-2 lg:p-8 sm:p-16">
+                {/*for mobile*/}
+                <CardContent className="lg:hidden">
+                  <img
+                    alt=""
+                    src="/Programmer.png"
+                    className="h-auto w-full object-cover"
+                  />
+                </CardContent>
+
+                <CardContent
+                  className="border-l border-b rounded-xl 
+                border-black shadow-xl shadow-blue-200 py-10"
+                >
+                  <p className="font-bold text-4xl ">
+                    Our{" "}
+                    <span className="bg-blue-800 text-white px-2">Story</span>{" "}
+                  </p>
+
+                  <p className="mt-4 text-gray-600 px-2 text-xl">
+                    Samuel Stanley, a forward-thinking IT enthusiast with a love
+                    for building web solutions founded NetCresT. NetCresT is a
+                    tech start up focusing on creativity and innovation, aiming
+                    to solve problems by transforming ideas into real-time
+                    solutions. At NetCresT, we believe that ideas should be
+                    turned into practical solutions and issues should be solved.
+                    Our goal is to help businesses overcome the obstacles they
+                    encounter in the digital era by offering them innovative
+                    solutions that simplifies how we interact with the web. We
+                    provide solutions that surpass our clients' expectations by
+                    utilizing simplicity, speed, and interaction to their
+                    fullest potential.
+                  </p>
+                </CardContent>
+              </div>
+            </div>
+
+            {/*for large screen*/}
+            <CardContent className="hidden lg:block">
+              <img
+                alt=""
+                src="/Programmer.png"
+                className="h-auto w-full object-cover"
+              />
+            </CardContent>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="p-2 md:p-12 lg:px-20 lg:py-24 mt-10 lg:mt-0">
+          <div className="text-center ltr:sm:text-left rtl:sm:text-right lg:border-t">
             <CallToAction />
           </div>
         </div>
       </section>
 
-      <section className="mt-40">
-        <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className=" p-8 md:p-12 lg:px-16 lg:py-24">
-              <div className="mx-auto max-w-xl text-center">
-                <h2 className="text-2xl font-bold text-black md:text-3xl">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit
-                </h2>
+      <section>
+        <div className="mx-auto sm:px-6 lg:px-20 mt-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div className=" flex items-center b">
+              <div className="p-2 lg:p-8 sm:p-16">
+                <CardContent
+                  className="border-l border-b rounded-xl 
+                border-black shadow-xl shadow-blue-200 py-10"
+                >
+                  <p className="font-bold text-4xl ">
+                    Our{" "}
+                    <span className="bg-blue-800 text-white px-2">Team</span>{" "}
+                  </p>
 
-                <p className=" text-black/90 sm:mt-4 sm:block">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-                  egestas tempus tellus etiam sed. Quam a scelerisque amet
-                  ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
-                  quisque ut interdum tincidunt duis.
-                </p>
+                  <div>
+                    <p className="mt-4 text-gray-600 px-2 text-xl">
+                      Our team is our greatest asset. Comprised of skilled
+                      professionals with diverse expertise, we work
+                      collaboratively to deliver outstanding results. Meet our
+                      key team members who bring passion and creativity to every
+                      project.
+                    </p>
+                    <div>
+                      <div className="mx-auto max-w-screen-xl sm:px-6 ">
+                        <div className="mt-8 grid grid-cols-3 gap-8 md:grid-cols-3 lg:grid-cols-3">
+                          <div className="block border border-gray-800 p- shadow-xl">
+                            <img src="/samuel.png" alt="" />
+                          </div>
 
-                <div className="mt-4 md:mt-8"></div>
+                          <div className="block border border-gray-800 p- shadow-xl">
+                            <img src="/samuel.png" alt="" />
+                          </div>
+
+                          <div className="block border border-gray-800 p- shadow-xl">
+                            <img src="/samuel.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
-              <img
-                alt=""
-                src="/samuel.png"
-                className="h-40 w-full object-cover sm:h-56 md:h-full"
-              />
-              <img
-                alt=""
-                src="/samuel.png"
-                className="h-40 w-full object-cover sm:h-56 md:h-full"
-              />
+            <div className=" flex items-center b">
+              <div className="p-2 lg:p-8 sm:p-16">
+                <CardContent
+                  className="border-r border-b rounded-xl 
+                border-black shadow-xl shadow-blue-200 py-10"
+                >
+                  <p className="font-bold text-4xl ">
+                    Our{" "}
+                    <span className="bg-blue-800 text-white px-2">Values</span>{" "}
+                  </p>
+                  <p className="mt-4 text-gray-600 px-2 text-xl">
+                    <span className="font-bold text-xl text-black">
+                      {" "}
+                      Excellence:{" "}
+                    </span>
+                    We uphold high standards, refining our skills and processes
+                    to deliver exceptional results.
+                  </p>
+                  <p className="mt-4 text-gray-600 px-2 text-xl">
+                    <span className="font-bold text-xl text-black">
+                      {" "}
+                      Creativity:{" "}
+                    </span>
+                    Bringing fresh ideas and innovative solutions to the table.{" "}
+                  </p>
+                  <p className="mt-4 text-gray-600 px-2 text-xl">
+                    <span className="font-bold text-xl text-black">
+                      {" "}
+                      Collaboration:{" "}
+                    </span>
+                    Working closely with our clients to understand and achieve
+                    their vision.{" "}
+                  </p>
+                  <p className="mt-4 text-gray-600 px-2 text-xl">
+                    <span className="font-bold text-xl text-black">
+                      {" "}
+                      Integrity:{" "}
+                    </span>
+                    Our business values integrity, promoting honesty,
+                    transparency, and ethical practices.{" "}
+                  </p>
+                  <p className="mt-4 text-gray-600 px-2 text-xl">
+                    <span className="font-bold text-xl text-black">
+                      {" "}
+                      Inovation:{" "}
+                    </span>
+                    We are dedicated to innovation, constantly exploring new
+                    technologies and methodologies.{" "}
+                  </p>
+                </CardContent>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
       <section className="mt-20">
         <TestimoneySlider />
       </section>

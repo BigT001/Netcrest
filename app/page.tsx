@@ -41,7 +41,7 @@ export default function Landingpage() {
             <BoxReveal boxColor={"#5046e6"} duration={0.5}>
               <h1
                 className="relative tracking-tight text-balance mt- lg:mt-10 font-bold
-                !leading-tight text-gray-900 text-5xl md:text-5xl lg:text-6xl "
+                !leading-tight text-gray-900 text-4xl md:text-5xl lg:text-6xl "
               >
                 We<span className="bg-blue-800 px-2 text-white">Build</span>
                 <br />
