@@ -7,7 +7,7 @@ import React from "react";
 export default function OurStory() {
   return (
     <div>
-      <section className="shadow-xl shadow-blue-300">
+      <section className="max-h-screen shadow-xl shadow-blue-300">
         <div
           className="mx-auto max-w-screen-xl px-4 
         py-32 lg:flex lg:h-screen lg:items-center"
@@ -71,9 +71,9 @@ export default function OurStory() {
                     Our Mission
                   </h2>
                   <p className="mt-4 text-gray-600 text-xl">
-                    To deliver exceptional digital solutions that empower our
-                    clients to achieve their goals with ease and efficiency.
-                    while solving problems.
+                    To deliver exceptional digital solutions that empowers our
+                    clients and end-users to achieve their goals with ease and
+                    efficiency.
                   </p>
                 </div>
               </div>

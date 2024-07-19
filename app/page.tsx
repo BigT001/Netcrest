@@ -31,7 +31,7 @@ export default function Landingpage() {
 
       <div
         className="lg:h-screen pb-24 pt-10 lg:grid lg:grid-cols-2 
-        sm:pb lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white "
+        sm:pb lg:gap-x-0 xl:gap-x-8 lg:pb-30 bg-white mt-20"
       >
         <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
           <div
