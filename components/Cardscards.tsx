@@ -14,9 +14,8 @@ export default function Cardscards() {
     <div>
       <section className=" text-black">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-          <h2 className="text-3xl font-bold text-center mr-10 ml-10">
-            Web Development
-            <span className="bg-blue-900 text-white"> Services </span>
+          <h2 className="text-4xl font-bold text-center mr-10 ml-10">
+            <span className="bg-blue-900 text-white px-2"> Services </span>
             We Offer
           </h2>
           <div className="mx-auto max-w-lg text-center">

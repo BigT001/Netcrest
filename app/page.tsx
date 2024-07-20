@@ -55,9 +55,8 @@ export default function Landingpage() {
                 className="mt-5 lg:text-lg lg:pr-10 lg:mr-60 lg:ml-60 text-center 
                     lg:text-center text-balance md:text-wrap"
               >
-                Transforming ideas into dynamic digital experiences. We innovate
-                with simplicity, speed, and interaction, ensuring your success
-                in the digital world.
+                We combine creativity and technology to create seamless digital
+                solutions.
               </p>
             </BoxReveal>
 
